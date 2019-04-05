@@ -6,7 +6,11 @@ namespace c_sharp_playground
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            for (int i = 10; i > 0; i--)
+            {
+                Console.WriteLine($"{i}");
+                if (i == 5) break;
+            }
         }
     }
 }
