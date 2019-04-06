@@ -10,7 +10,20 @@ namespace c_sharp_playground
             {
                 Console.WriteLine($"{i}");
                 if (i == 5) break;
+
             }
+            int x = 10;
+            while (x > 0)
+            {
+                Console.WriteLine(x);
+                x--;
+            }
+            int y = 1;
+            do
+            {
+                Console.WriteLine(y);
+                y++;
+            } while (y < 10);
         }
     }
 }
