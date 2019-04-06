@@ -6,24 +6,33 @@ namespace c_sharp_playground
     {
         static void Main(string[] args)
         {
-            for (int i = 10; i > 0; i--)
+            for (int i = 0; i <= 5; i++)
             {
-                Console.WriteLine($"{i}");
-                if (i == 5) break;
+                //Console.WriteLine($"first loop i = {i}");
+                for (int j = 1; j <= 4; j++)
+                {
+                    Console.Write('0');
+                    //Console.WriteLine($"second loof j = {j}");
+                }
+                Console.WriteLine();
+            }
 
-            }
-            int x = 10;
-            while (x > 0)
+            for (int i = 0; i <= 100; i++)
             {
-                Console.WriteLine(x);
-                x--;
+                if (i % 2 == 0)
+                {
+                    Console.WriteLine(i);
+                }
             }
-            int y = 1;
-            do
+
+            for (int i = 0; i < 10; i++)
             {
-                Console.WriteLine(y);
-                y++;
-            } while (y < 10);
+                for (int j = 0; j <= i; j++)
+                {
+                    Console.Write('0');
+                }
+                Console.WriteLine();
+            }
         }
     }
 }
