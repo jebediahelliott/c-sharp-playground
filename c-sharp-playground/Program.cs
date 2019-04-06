@@ -14,7 +14,7 @@ namespace c_sharp_playground
             // round
             Console.WriteLine(Math.Round(x, 2));
             // truncate
-            Console.WriteLine(Math.Truncate(x, ));
+            Console.WriteLine(Math.Truncate(x));
         }
     }
 }
