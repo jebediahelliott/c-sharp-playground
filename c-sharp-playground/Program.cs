@@ -6,18 +6,15 @@ namespace c_sharp_playground
     {
         static void Main(string[] args)
         {
-            int x = 9;
-            int y = 4;
-            // Max
-            Console.WriteLine(Math.Max(x, y));
-            // Min
-            Console.WriteLine(Math.Min(x, y));
-            // sqrt
-            Console.WriteLine(Math.Sqrt(x));
-            // pow
-            Console.WriteLine(Math.Pow(x, y));
-            // PI
-            Console.WriteLine(Math.PI);
+            Random x = new Random();
+            int y = 0;
+            y = x.Next(1, 7);
+
+            Console.WriteLine(y);
+
+            double j = 0;
+            j = x.NextDouble() * 100;
+            Console.WriteLine(j);
         }
     }
 }
